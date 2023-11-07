@@ -118,9 +118,9 @@
     }
 
     .info {
-        width: 18.3em;
+        width: 18.6em;
         margin-top: 1em;
-        margin-left: 0.8em;
+        margin-left: 1em;
         opacity: 90%;
         padding-right: 3em;
         padding-bottom: 0.1em;
@@ -273,9 +273,11 @@
 
     .recepthamburger h3 {
         font-size: 1.2em;
-        margin: 0.7em;
+        margin-left: 1.5em;
         color: #D03B8D;
         text-shadow: 5px 5px 6px #312783;
+        margin-bottom: -1em;
+        margin-top: 3em;
     }
 
     .recepthamburger li {
@@ -283,7 +285,7 @@
     }
 
     .recepthamburger p {
-        margin: 1em;
+        margin: 1.8em;
         color: #D03B8D;
         text-shadow: 5px 5px 6px #312783;
     }
@@ -298,11 +300,44 @@
         margin: 1em;
     }
 
+    .opmaakburger h1 {
+        width: 4em;
+        font-size: 2.3em;
+        margin-top: 1.7em;
+    }
+
+    .recepthamburger p:first-of-type {
+        width: 12em;
+        margin-top: -5.3em;
+        margin-left: 1.5em;
+        margin-bottom: 3em;
+    }
+
+    .opmaakburger img {
+        max-block-size: 11.5em;
+        padding-top: 3em;
+        margin-left: 4.9em;
+    }
+
+    .opmaakburger {
+        display: flex;
+    }
+
     .receptpasta h3 {
         font-size: 1.2em;
-        margin: 0.7em;
+        margin-left: 1.5em;
+        margin-bottom: -1em;
         color: #D03B8D;
         text-shadow: 5px 5px 6px #312783;   
+    }
+
+    .receptpasta h3:last-of-type{
+        margin-top: 3em;
+    }
+
+    .receptpasta p:last-of-type{
+        margin-bottom: 2em;
+        margin-top: 2em;
     }
 
     .receptpasta h1 {
@@ -313,7 +348,8 @@
 
     .receptpasta p {
         color: #D03B8D;
-        text-shadow: 5px 5px 6px #312783;   
+        text-shadow: 5px 5px 6px #312783;  
+        margin: 1.8em; 
     }
 
     .receptpasta li {
@@ -324,11 +360,39 @@
         margin: 1em;
     }
 
+    .opmaakpasta h1 {
+        width: 4em;
+        font-size: 2.3em;
+        margin-top: 1.7em;
+    }
+
+    .receptpasta p:first-of-type {
+        width: 12em;
+        margin-top: -7em;
+        margin-left: 1.5em;
+        margin-bottom: 3em;
+    }
+
+    .opmaakpasta img {
+        max-block-size: 16em;
+        padding-top: 3em;
+        margin-left: 2.3em;
+    }
+
+    .opmaakpasta {
+        display: flex;
+    }
+
     .recepttacos h3 {
         font-size: 1.2em;
-        margin: 0.7em;
+        margin-left: 1.5em;
+        margin-bottom: -1em;
         color: #D03B8D;
-        text-shadow: 5px 5px 6px #312783;       
+        text-shadow: 5px 5px 6px #312783;        
+    }
+
+    .recepttacos h3:last-of-type{
+        margin-top: 3em;
     }
 
     .recepttacos h1 {
@@ -339,7 +403,12 @@
 
     .recepttacos p {
         color: #D03B8D;
-        text-shadow: 5px 5px 6px #312783;    
+        text-shadow: 5px 5px 6px #312783; 
+        margin: 1.8em;   
+    }
+
+    .recepttacos p:last-of-type{
+        margin-bottom: 3em;
     }
 
     .recepttacos li {
@@ -350,16 +419,41 @@
         margin: 1em;
     }
 
+    .opmaaktaco h1 {
+        width: 4em;
+        font-size: 2.3em;
+        margin-top: 1.7em;
+        margin-left: 0.5em;
+    }
+
+    .recepttacos p:first-of-type {
+        width: 11em;
+        margin-top: -9.5em;
+        margin-left: 1.2em;
+        margin-bottom: 3em;
+    }
+
+    .opmaaktaco img {
+        max-block-size: 18em;
+        padding-top: 1em;
+        margin-left: 2.5em;
+    }
+
+    .opmaaktaco {
+        display: flex;
+    }
+
+
     .review h2 {
         margin: 1em;
-        font-size: 1em;
-        padding-top: 2em;
+        font-size: 1.5em;
+        padding-top: 1.5em;
+        color: #D03B8D;
     }
 
     .review p {
         margin: 1.5em;
-        font-size: 0.8em;
-        padding-bottom: 0.5em;
+        font-size: 1em;
     }
 
     .review-text {
@@ -367,30 +461,52 @@
         margin-left: 1.8em;
         margin-right: 1.8em;
         border-radius: 1em;
-        color: #2E2E2F;
-        background: #D03B8D;
+        color: white;
+        box-shadow: 2px 2px 20px #D03B8D;
         opacity: 80%;
+        margin-bottom: 3em;
     
+    }
+
+    .review-text p:last-of-type{
+        padding-bottom: 3em;
     }
 
     .review img {
         max-block-size: 15em;
-        margin-top: 1.5em;
+        margin-top: 3.5em;
         border-radius: 1em;
     }
 
     .review-foto h1 {
         position: absolute;
-        top: 1.5em;
-        left: 1.5em;
-        font-size: 2em;
+        top: 0.6em;
+        left: 1.3em;
+        font-size: 3em;
         text-shadow: 6px 6px 6px #2E2E2F;
+        color: white;
+        text-shadow: 2px 2px 2px #2E2E2F;
     }
 
     .review-foto  {
         position: relative;
         text-align: center;
         }
+
+        .scroll img {
+            max-width: 10em;
+        }
+
+        .scroll {
+            display: flex;
+            overflow: scroll;
+           gap: 1em;
+           margin: 1em;
+           margin-bottom: 3em;
+        }
+
+        
+
 
 
 }
