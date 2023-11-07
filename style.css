@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        background-color: #2E2E2F;
+        font-family: "mundial", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+    }
+
+    p {
+        font-family: "mundial", sans-serif;
+        font-style: normal;
+        margin: 0.8em;
+    }
+
+    ul {
+        display: flex;
+        margin-top: 2em;
+        text-decoration: none;
+        list-style-type: none;
+        justify-content: flex-end;
+        gap: 1em;
+        margin-right: 1em;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+
+    .navigatie img {
+        max-block-size: 3em;
+        position: absolute;
+        margin-top: -1.1em;
+    }
+
+    a:visited {
+        color: white;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    a {text-decoration: none;}
+
+    .titel {
+        display: flex;
+    }
+
+    .titel h1 {
+        font-size: 2.8em;
+        margin: 0.3em;
+        padding-top: 2em;
+    }
+
+    .titel img {
+        position: absolute;
+        margin: 0;
+        max-block-size: 30em;
+        padding-top: 2.5em;
+        left: 14.3em;
+    }
+
+    .intro {
+        margin: 1em;
+        width: 10.5em;
+        font-size: 1.2em;
+        padding-top: 0em;
+    }
+
+    .intro2 {
+        margin-left: 0em;
+        padding-top: 3.9em;
+        font-size: 1.5em;
+        text-align: center;
+        color: #D03B8D;
+        text-shadow: 5px 5px 8px #312783;
+    }
+
+    .homejunk {
+        display: flex;
+        margin-left: -1em;
+        margin-top: 3em;
+        margin-bottom: -1em;
+        width: 2em;
+    }
+
+    .homejunk p {
+        font-size: 1.5em;
+        padding-top: 1em;
+        font-family: "mundial", sans-serif;
+        font-weight: 600;
+        text-align: left;
+        padding-left: 0.5em;
+    }
+
+    .homejunk img {
+        max-block-size: 10em;
+        margin-left: 1em;
+    }
+
+    .horhomeinfo p {
+        margin: 1.2em;
+        font-size: 1em;
+        padding-left: 0.5em;
+        text-align: left;
+        height: 5em;
+        margin-bottom: 3em;
+        margin-left: 0.5em;
+    }
+
+    .info img {
+        max-width: 6em;
+       padding-top: 1.5em;
+        margin-right: -4.4em;
+    }
+
+    .info {
+        width: 18.3em;
+        margin-top: 1em;
+        margin-left: 0.8em;
+        opacity: 90%;
+        padding-right: 3em;
+        padding-bottom: 0.1em;
+        margin-bottom: 3em;
+        padding-top: 1em;
+        border-radius: 0.5em;
+        box-shadow: 2px 2px 7px 9px #D03B8D;
+    
+      
+    }
+
+    .info p:last-child {
+        margin-top: -3em;
+        margin-bottom: 3em;
+        color: #D03B8D;
+        text-shadow: 5px 5px 10px #312783;
+        text-decoration: white;
+    }
+
+    .info h3 {
+        margin: 1em;
+    }
+
+    .info-hor {
+        display: flex;
+    }
+
+    .zelfdoen h1 {
+        margin-top: 0.8em;
+        margin-left: 0.5em;
+        margin-bottom: 0.5em;
+        text-align: left;
+        font-size: 3.5em;
+        width: 4em;
+    }
+
+    .zelfdoen h2 {
+        margin-left: 1em;
+        margin-right: 0.5em;
+        width: 9em;
+        padding-top: 0.3em;
+    }
+
+    .zelfdoen p {
+        margin-left: 1.5em;
+        width: 19em;
+        text-align: left;
+    }
+
+    .zelfdoen img {
+     max-block-size: 3em;
+     margin-right: 1.7em;
+    }
+
+    .hor-zelfdoen {
+        display: flex;
+    }
+
+    .beoordeling h2 {
+        margin-top: 1.5em;
+        margin-left: 1em;
+    }
+
+    .beoordeling p {
+        margin-left: 1.5em;
+        width: 19em;
+    }
+
+    .beoordeling img {
+        max-width: 8em;
+        margin-left: 1.5em;
+    }
+
+    .hamburger{
+        display: flex;
+        margin-top: 3em;
+        gap: 0.5em;
+    }
+
+
+    .hamburger img {
+        max-block-size: 5em;
+        margin: 1em;
+    }
+
+    .hamburger h4 {
+        font-size: 1.1em;
+        margin-left: 0.6em;
+        text-decoration: none;
+    }
+
+    .hamburger p {
+        width: 10.5em;
+    }
+
+    .burgertext img {
+        max-block-size: 1.5em;
+        margin-top: -0.3em;
+    }
+
+    .pasta {
+        display: flex;
+        margin-top: 3em;
+        gap: 0.2em;
+    }
+
+    .pasta img {
+        max-block-size: 7em;
+        margin: 1em;
+    }
+
+    .pasta h4 {
+        font-size: 1.1em;
+        margin-left: 0.6em;
+    }
+
+    .pasta p {
+        width:11em ;
+    }
+
+    .pastatext img {
+        max-block-size: 1.5em;
+        margin-top: -0.3em;
+    }
+    .taco {
+        display: flex;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    .taco img {
+        max-block-size: 3.5em;
+        margin: 1em;
+        padding-top: 1em;
+    }
+
+    .taco h4 {
+        font-size: 1.1em;
+        margin-left: 0.6em;
+    }
+
+    .taco p {
+        width: 11em;
+    }
+
+    .tacotext img {
+        max-block-size: 1.5em;
+        margin-top: -1em;
+    }
+
+    .recepthamburger h3 {
+        font-size: 1.2em;
+        margin: 0.7em;
+        color: #D03B8D;
+        text-shadow: 5px 5px 6px #312783;
+    }
+
+    .recepthamburger li {
+        margin: 1em;
+    }
+
+    .recepthamburger p {
+        margin: 1em;
+        color: #D03B8D;
+        text-shadow: 5px 5px 6px #312783;
+    }
+
+    .recepthamburger h1 {
+        font-size: 2em;
+        margin-top: 1em;
+        margin-left: 0.5em;
+    }
+
+    .recepthamburger ol {
+        margin: 1em;
+    }
+
+    .receptpasta h3 {
+        font-size: 1.2em;
+        margin: 0.7em;
+        color: #D03B8D;
+        text-shadow: 5px 5px 6px #312783;   
+    }
+
+    .receptpasta h1 {
+        font-size: 2em;
+        margin-top: 1em;
+        margin-left: 0.5em;   
+    }
+
+    .receptpasta p {
+        color: #D03B8D;
+        text-shadow: 5px 5px 6px #312783;   
+    }
+
+    .receptpasta li {
+        margin: 1em;
+    }
+
+    .receptpasta ol {
+        margin: 1em;
+    }
+
+    .recepttacos h3 {
+        font-size: 1.2em;
+        margin: 0.7em;
+        color: #D03B8D;
+        text-shadow: 5px 5px 6px #312783;       
+    }
+
+    .recepttacos h1 {
+        font-size: 2em;
+        margin-top: 1em;
+        margin-left: 0.5em;     
+    }
+
+    .recepttacos p {
+        color: #D03B8D;
+        text-shadow: 5px 5px 6px #312783;    
+    }
+
+    .recepttacos li {
+        margin: 1em;
+    }
+
+    .recepttacos ol {
+        margin: 1em;
+    }
+
+    .review h2 {
+        margin: 1em;
+        font-size: 1em;
+        padding-top: 2em;
+    }
+
+    .review p {
+        margin: 1.5em;
+        font-size: 0.8em;
+        padding-bottom: 0.5em;
+    }
+
+    .review-text {
+        margin-top: 0em;
+        margin-left: 1.8em;
+        margin-right: 1.8em;
+        border-radius: 1em;
+        color: #2E2E2F;
+        background: #D03B8D;
+        opacity: 80%;
+    
+    }
+
+    .review img {
+        max-block-size: 15em;
+        margin-top: 1.5em;
+        border-radius: 1em;
+    }
+
+    .review-foto h1 {
+        position: absolute;
+        top: 1.5em;
+        left: 1.5em;
+        font-size: 2em;
+        text-shadow: 6px 6px 6px #2E2E2F;
+    }
+
+    .review-foto  {
+        position: relative;
+        text-align: center;
+        }
+
+
+}
