@@ -43,8 +43,10 @@
         list-style-type: none;
     }
 
-    a {text-decoration: none;
-    color: white;}
+    a {
+        text-decoration: none;
+        color: white;
+    }
 
     a:link {
         color: white;
@@ -98,7 +100,7 @@
         font-family: "mundial", sans-serif;
         font-weight: 600;
         text-align: left;
-        padding-left: 0.5em;
+        padding-left: 0.7em;
     }
 
     .homejunk img {
@@ -113,12 +115,12 @@
         text-align: left;
         height: 5em;
         margin-bottom: 3em;
-        margin-left: 0.5em;
+        margin-left: 0.7em;
     }
 
     .info img {
         max-width: 6em;
-       padding-top: 1.5em;
+        padding-top: 1.5em;
         margin-right: -4.4em;
     }
 
@@ -133,8 +135,8 @@
         padding-top: 1em;
         border-radius: 0.5em;
         box-shadow: 2px 2px 7px 9px #D03B8D;
-    
-      
+
+
     }
 
     .info p:last-child {
@@ -176,8 +178,8 @@
     }
 
     .zelfdoen img {
-     max-block-size: 3em;
-     margin-right: 1.7em;
+        max-block-size: 3em;
+        margin-right: 1.7em;
     }
 
     .hor-zelfdoen {
@@ -199,7 +201,7 @@
         margin-left: 1.5em;
     }
 
-    .hamburger{
+    .hamburger {
         display: flex;
         margin-top: 3em;
         gap: 0.5em;
@@ -243,13 +245,14 @@
     }
 
     .pasta p {
-        width:11em ;
+        width: 11em;
     }
 
     .pastatext img {
         max-block-size: 1.5em;
         margin-top: -0.3em;
     }
+
     .taco {
         display: flex;
         margin-top: 3em;
@@ -333,14 +336,14 @@
         margin-left: 1.5em;
         margin-bottom: -1em;
         color: #D03B8D;
-        text-shadow: 5px 5px 6px #312783;   
+        text-shadow: 5px 5px 6px #312783;
     }
 
-    .receptpasta h3:last-of-type{
+    .receptpasta h3:last-of-type {
         margin-top: 3em;
     }
 
-    .receptpasta p:last-of-type{
+    .receptpasta p:last-of-type {
         margin-bottom: 2em;
         margin-top: 2em;
     }
@@ -348,13 +351,13 @@
     .receptpasta h1 {
         font-size: 2em;
         margin-top: 1em;
-        margin-left: 0.5em;   
+        margin-left: 0.5em;
     }
 
     .receptpasta p {
         color: #D03B8D;
-        text-shadow: 5px 5px 6px #312783;  
-        margin: 1.8em; 
+        text-shadow: 5px 5px 6px #312783;
+        margin: 1.8em;
     }
 
     .receptpasta li {
@@ -393,26 +396,26 @@
         margin-left: 1.5em;
         margin-bottom: -1em;
         color: #D03B8D;
-        text-shadow: 5px 5px 6px #312783;        
+        text-shadow: 5px 5px 6px #312783;
     }
 
-    .recepttacos h3:last-of-type{
+    .recepttacos h3:last-of-type {
         margin-top: 3em;
     }
 
     .recepttacos h1 {
         font-size: 2em;
         margin-top: 1em;
-        margin-left: 0.5em;     
+        margin-left: 0.5em;
     }
 
     .recepttacos p {
         color: #D03B8D;
-        text-shadow: 5px 5px 6px #312783; 
-        margin: 1.8em;   
+        text-shadow: 5px 5px 6px #312783;
+        margin: 1.8em;
     }
 
-    .recepttacos p:last-of-type{
+    .recepttacos p:last-of-type {
         margin-bottom: 3em;
     }
 
@@ -470,10 +473,10 @@
         box-shadow: 2px 2px 20px #D03B8D;
         opacity: 80%;
         margin-bottom: 3em;
-    
+
     }
 
-    .review-text p:last-of-type{
+    .review-text p:last-of-type {
         padding-bottom: 3em;
     }
 
@@ -493,24 +496,33 @@
         text-shadow: 2px 2px 2px #2E2E2F;
     }
 
-    .review-foto  {
+    .review-foto {
         position: relative;
         text-align: center;
-        }
+    }
 
-        .scroll img {
-            max-width: 10em;
-        }
+    .scroll img {
+        max-width: 10em;
+    }
 
-        .scroll {
-            display: flex;
-            overflow: scroll;
-           gap: 1em;
-           margin: 1em;
-           margin-bottom: 3em;
-        }
+    .scroll {
+        display: flex;
+        overflow: scroll;
+        gap: 1em;
+        margin: 1em;
+        margin-bottom: 3em;
+    }
 
-        
+    .about h3 {
+        margin-left: 0.9em;
+        font-size: 1.5em;
+        margin-top: 2em;
+    }
+
+    .about p {
+        margin-left: 1.2em;
+        margin-bottom: -2em;
+    }
 
 
 
