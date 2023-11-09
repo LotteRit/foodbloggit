@@ -19,7 +19,7 @@
         margin: 0.8em;
     }
 
-    ul {
+    .navigatie ul {
         display: flex;
         margin-top: 2em;
         text-decoration: none;
@@ -30,6 +30,12 @@
         font-size: 1.2em;
         font-weight: 600;
     }
+
+    ul {
+        margin: 1em;
+    }
+
+
 
     .navigatie img {
         max-block-size: 3em;
